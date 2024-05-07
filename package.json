@@ -1,0 +1,19 @@
+{
+  "name": "bot2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/formbody": "^7.4.0",
+    "axios": "^1.6.8",
+    "fastify": "^4.26.2",
+    "nodemon": "^3.1.0",
+    "request-promise": "^4.2.6"
+  }
+}
